@@ -1,0 +1,48 @@
+.order_card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.order-details p {
+  margin: 5px 0;
+}
+
+.order_details p strong {
+  font-weight: bold;
+}
+
+.update_status {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.update_status select {
+  padding: 5px;
+  border-radius: 5px;
+  height: 2.5em;
+}
+
+.update_status button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin: 10px;
+  height: 2.5em;
+  cursor: pointer;
+}
+
+.update_status button:hover {
+  background-color: #0056b3;
+}
